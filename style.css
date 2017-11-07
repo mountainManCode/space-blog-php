@@ -1,0 +1,23 @@
+.wrapper {
+  display: grid;
+  grid-template: 85% auto / 1fr 3fr;
+}
+
+.navigation_menu {
+  grid-area: 1 / 1 / 2 / 2;
+  justify-content: start;
+  max-height: 100%;
+  padding: 10vh, 10vw;
+}
+
+.blog_posts {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.about_space_blog {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.footer {
+  grid-area: 2 / 1 / 3 / 2;
+}
